@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce UI</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="online-store.png">
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <nav>
+                <div class="row align-items-center">
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Todoist_logo.png" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-8 col-lg-10">
+                        <div class="header">
+                            <i class="fa fa-search search-toggle"></i>
+                            <div class="search-bar">
+                                <input type="text" class="form-control" placeholder="Search store">
+                                <i class="fa fa-times search-close"></i>
+                            </div>
+                            <div class="menu">
+                                <i class="fa fa-bars menu-toggle"></i>
+                                <ul class="">
+                                    <li><a href="products.html" class="active">products</a></li>
+                                    <li><a href="story.html">story</a></li>
+                                    <li><a href="manufacturing.html">manufacturing</a></li>
+                                    <li><a href="packaging.html">packaging</a></li>
+                                    <li><a href="cart.html"><i class="fa fa-shopping-basket"></i></a></li>
+                                    <li><a href="profile.html"><i class="far fa-user"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <main>
+                <div class="row">
+                    <div class="col-12 col-lg-2 col-md-3 order-2 order-md-1">
+                        <div class="sidebar">
+                            <h3 class="sidebar-title">Explore</h3>
+                            <ul>
+                                <li><a href="#new-in"><span>⚡️</span>New In</a></li>
+                                <li><a href="#clothes"><span>🧥</span>Clothes</a></li>
+                                <li><a href="#shoes"><span>👞</span>Shoes</a></li>
+                                <li><a href="#accessories"><span>👜</span>Accessories</a></li>
+                                <li><a href="#activewear"><span>🤸‍♀️</span>Activewear</a></li>
+                                <li><a href="#gift-living"><span>🎁</span>Gift & Living</a></li>
+                                <li><a href="#inspiration"><span>💎</span>Inspiration</a></li>
+                            </ul>
+                            <div class="help-center"><i class="fa fa-comment"></i>Help Center</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-10 col-md-9 order-1 order-md-2">
+                        <div class="content">
+                            <div class="content-list horizontal" id="new-in">
+                                <div class="content-list-item"><img src="https://image.shutterstock.com/image-vector/online-shop-banner-building-icon-600w-674718844.jpg" alt=""></div>
+                                <div class="content-list-item"><img src="https://image.shutterstock.com/image-illustration/3d-rendering-promotion-sale-gifts-600w-1936237714.jpg" alt=""></div>
+                            </div>
+                            <div class="content-list vertical" id="clothes">
+                                <div class="content-list-item"><img src="https://image.shutterstock.com/image-vector/summer-time-top-view-on-600w-1098778193.jpg" alt=""></div>
+                                <div class="content-list-item"><img src="https://image.shutterstock.com/image-vector/summer-big-sale-banner-online-600w-1914583237.jpg" alt=""></div>
+                            </div>
+                            <div class="content-list vertical" id="shoes">
+                                <div class="content-list-item"><img src="https://image.shutterstock.com/image-vector/summer-mega-sale-75-off-600w-1914996232.jpg" alt=""></div>
+                                <div class="content-list-item"><img src="https://image.shutterstock.com/image-vector/summer-time-beach-icons-600w-1173527008.jpg" alt=""></div>
+                            </div>
+                            <div class="content-list horizontal" id="accessories">
+                                <div class="content-list-item"><img src="https://image.shutterstock.com/image-illustration/great-discount-sale-banner-design-600w-1846870939.jpg" alt=""></div>
+                                <div class="content-list-item"><img src="https://image.shutterstock.com/image-vector/great-discount-banner-design-3d-600w-1843697746.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
