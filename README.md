@@ -4,7 +4,7 @@ A beautiful and responsive e-commerce website UI built with HTML, CSS, and JavaS
 
 ## 🌐 Live Demo
 
-Check out the live demo: [E-Commerce UI Design](https://iam269.github.io/E-Commerce-UI-Design/)
+Check out the live demo: [E-Commerce UI Design](https://itsiamdev.github.io/E-Commerce-UI-Design/)
 
 ## ✨ Features
 
